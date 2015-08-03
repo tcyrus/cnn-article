@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{% if page.title %}{{ page.title }}{% else %}Article Generator{% endif %}</title>
+    {% include meta.html %}
+  </head>
+  <body>
+    {{ content }}
+  </body>
+</html>

@@ -1,0 +1,11 @@
+---
+layout: default
+---
+
+<div class="index">
+    <h1>All articles</h1>
+    {% for post in site.posts %}
+        <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }} by {{ post.author }}</a>
+        <br>
+    {% endfor %}
+</div>
