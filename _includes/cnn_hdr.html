@@ -1,45 +1,45 @@
 <div id="cnn_hdr">
     <div id="cnn_hdr-prompt" style="overflow: visible; display: none;">
     	<div class="hdr-wrap" id="cnn_hdr-promptcntnt">
-    		<span id="hdr-prompt-text">You've selected the U.S. Edition. Would you like to make this your default edition? &nbsp;&nbsp; <a href="/">Yes</a> &nbsp; | &nbsp; <a href="/">No</a></span>
+    		<span id="hdr-prompt-text">You've selected the U.S. Edition. Would you like to make this your default edition? &nbsp;&nbsp; <a href="{{ site.baseurl }}">Yes</a> &nbsp; | &nbsp; <a href="{{ site.baseurl }}">No</a></span>
     		<img id="cnn_hdr-arrow" src="http://i.cdn.turner.com/cnn/.element/img/3.0/global/header/hat/arrow_black.png" width="19" height="26" class="hdr-arrow-us cnn_dynone cnn_ie6png" style="display: block;">
-    		<a href="/" id="hdr-prompt-close">Close&nbsp;<img src="http://i.cdn.turner.com/cnn/.element/img/3.0/1px.gif" width="7" height="7" class="cnn_hdr-cbttn"></a>
+    		<a href="{{ site.baseurl }}" id="hdr-prompt-close">Close&nbsp;<img src="http://i.cdn.turner.com/cnn/.element/img/3.0/1px.gif" width="7" height="7" class="cnn_hdr-cbttn"></a>
     	</div>
     </div>
     <div id="cnn_hdr-main">
         <div class="hdr-wrap">
             <div id="hdr-banner">
-                <a id="hdr-banner-title" href="/" title="">
+                <a id="hdr-banner-title" href="{{ site.baseurl }}" title="">
                     <img src="http://i.cdn.turner.com/cnn/.element/img/3.0/global/header/us/hdr-world.gif" width="206" height="82" alt="CNN World" usemap="#cnn_hdrimap">
                 </a>
                 <map name="cnn_hdrimap">
-                    <area alt="" coords="-1,22,82,63" href="/">
-                    <area alt="" coords="84,18,206,66" href="/">
+                    <area alt="" coords="-1,22,82,63" href="{{ site.baseurl }}">
+                    <area alt="" coords="84,18,206,66" href="{{ site.baseurl }}">
                 </map>
             </div>
             <div id="hdr-editions">
                 <ul>
                     <li class="no-pad-left">
-                        <span><a href="/" class="cnn_hdr-editionlnk">SET EDITION</a>: &nbsp;U.S.</span>
+                        <span><a href="{{ site.baseurl }}" class="cnn_hdr-editionlnk">SET EDITION</a>: &nbsp;U.S.</span>
                     </li>
-                    <li><a id="cnn_switchEdition_intl" href="/" title="CNN INTERNATIONAL">INTERNATIONAL</a></li>
-                    <li><a href="/" title="CNN MÉXICO">MÉXICO</a></li>
-                    <li class="no-border"><a href="/" title="ARABIC">ARABIC</a></li>
+                    <li><a id="cnn_switchEdition_intl" href="{{ site.baseurl }}" title="CNN INTERNATIONAL">INTERNATIONAL</a></li>
+                    <li><a href="{{ site.baseurl }}" title="CNN MÉXICO">MÉXICO</a></li>
+                    <li class="no-border"><a href="{{ site.baseurl }}" title="ARABIC">ARABIC</a></li>
                 </ul>
                 <div class="cnn_clear"></div>
                 <div style="padding-top:2px;">
                     <ul>
                         <li class="no-pad-left no-border no-pad-right">
-                            <span><a href="/" class="cnn_hdr-editionlnk">TV</a>: &nbsp;</span>
+                            <span><a href="{{ site.baseurl }}" class="cnn_hdr-editionlnk">TV</a>: &nbsp;</span>
                         </li>
-                        <li class="no-pad-left"><a href="/">CNN</a></li>
-                        <li class=""><a href="/">CNNi</a></li>
-                        <li><a href="/">CNN en Español</a></li>
-                        <li class="no-border"><a href="/">HLN</a></li>
+                        <li class="no-pad-left"><a href="{{ site.baseurl }}">CNN</a></li>
+                        <li class=""><a href="{{ site.baseurl }}">CNNi</a></li>
+                        <li><a href="{{ site.baseurl }}">CNN en Español</a></li>
+                        <li class="no-border"><a href="{{ site.baseurl }}">HLN</a></li>
                     </ul>
                 </div>
             </div>
-            <div id="hdr-auth"><ul><li><a href="/" title="">Sign up</a></li><li class="no-border no-pad-right"><a href="/" title="">Log in</a></li></ul></div>
+            <div id="hdr-auth"><ul><li><a href="{{ site.baseurl }}" title="">Sign up</a></li><li class="no-border no-pad-right"><a href="{{ site.baseurl }}" title="">Log in</a></li></ul></div>
             <div id="hdr-search">
                 				<form method="get" action="/search/" onsubmit="return cnnSearch(this);">
 					<div class="ftr-search-datacntr">
@@ -66,40 +66,40 @@
     </div>
     <div id="cnn_hdr-nav">
         <ul id="us-menu">
-            <li class="no-border"><a id="nav-home" class="nav-media no-border" href="/" title="Breaking News, U.S., World Weather Entertainment and Video News from CNN.com">Home</a>
+            <li class="no-border"><a id="nav-home" class="nav-media no-border" href="{{ site.baseurl }}" title="Breaking News, U.S., World Weather Entertainment and Video News from CNN.com">Home</a>
             </li>
-            <li class="no-border"><a id="nav-video" class="nav-media no-border" href="/" title="Video Breaking News Videos from CNN.com">TV &amp; Video</a>
+            <li class="no-border"><a id="nav-video" class="nav-media no-border" href="{{ site.baseurl }}" title="Video Breaking News Videos from CNN.com">TV &amp; Video</a>
             </li>
-            <li><a id="nav-us" href="/" title="U.S. News Headlines Stories and Video from CNN.com">U.S.</a>
+            <li><a id="nav-us" href="{{ site.baseurl }}" title="U.S. News Headlines Stories and Video from CNN.com">U.S.</a>
             </li>
-            <li><a id="nav-world" class="nav-on" href="/" title="World News International Headlines Stories and Video from CNN.com">World</a>
+            <li><a id="nav-world" class="nav-on" href="{{ site.baseurl }}" title="World News International Headlines Stories and Video from CNN.com">World</a>
             </li>
-            <li><a id="nav-politics" href="/" title="Election and Politics News from CNN.com">Politics</a>
+            <li><a id="nav-politics" href="{{ site.baseurl }}" title="Election and Politics News from CNN.com">Politics</a>
             </li>
-            <li><a id="nav-justice" href="/" title="Justice News Courts Celebrity Docket and Law News from CNN.com">Justice</a>
+            <li><a id="nav-justice" href="{{ site.baseurl }}" title="Justice News Courts Celebrity Docket and Law News from CNN.com">Justice</a>
             </li>
-            <li><a id="nav-entertainment" href="/" title="Entertainment News Celebrities Movies and TV from CNN.com">Entertainment</a>
+            <li><a id="nav-entertainment" href="{{ site.baseurl }}" title="Entertainment News Celebrities Movies and TV from CNN.com">Entertainment</a>
             </li>
-            <li><a id="nav-tech" href="/" title="Technology Computers Internet and Personal Tech News from CNN.com">Tech</a>
+            <li><a id="nav-tech" href="{{ site.baseurl }}" title="Technology Computers Internet and Personal Tech News from CNN.com">Tech</a>
             </li>
-            <li><a id="nav-health" href="/" title="Health News Medicine Diet Fitness and Parenting from CNN.com">Health</a>
+            <li><a id="nav-health" href="{{ site.baseurl }}" title="Health News Medicine Diet Fitness and Parenting from CNN.com">Health</a>
             </li>
-            <li><a id="nav-living" href="/" title="Living News Personal Work and Home from CNN.com">Living</a>
+            <li><a id="nav-living" href="{{ site.baseurl }}" title="Living News Personal Work and Home from CNN.com">Living</a>
             </li>
-            <li><a id="nav-travel" href="/" title="Travel News Vacations Destinations and Video from CNN.com">Travel</a>
+            <li><a id="nav-travel" href="{{ site.baseurl }}" title="Travel News Vacations Destinations and Video from CNN.com">Travel</a>
             </li>
-            <li><a id="nav-opinion" href="/" title="Opinion Editorial Analysis and Insight from CNN.com">Opinion</a>
+            <li><a id="nav-opinion" href="{{ site.baseurl }}" title="Opinion Editorial Analysis and Insight from CNN.com">Opinion</a>
             </li>
-            <li class="cnn-blue"><a id="nav-ireport" href="/" title="CNN iReport – Share your story, discuss the issues with CNN.com">iReport</a>
+            <li class="cnn-blue"><a id="nav-ireport" href="{{ site.baseurl }}" title="CNN iReport – Share your story, discuss the issues with CNN.com">iReport</a>
             </li>
             <li class="cnn-blue">
-                <a id="nav-money" href="/" title="Business financial personal finance news from CNNMoney">
+                <a id="nav-money" href="{{ site.baseurl }}" title="Business financial personal finance news from CNNMoney">
                     <span>Money</span>
                     <img src="http://i.cdn.turner.com/cnn/.element/img/3.0/global/header/money/nav-arrow.gif" width="3" height="5" alt="">
                 </a>
             </li>
             <li>
-                <a id="nav-sports" href="/" title="The latest sports news and insights on all of your teams and today's hot topics from Bleacher Report (BleacherReport.com).">
+                <a id="nav-sports" href="{{ site.baseurl }}" title="The latest sports news and insights on all of your teams and today's hot topics from Bleacher Report (BleacherReport.com).">
                     <span>Sports</span>
                     <img src="http://i.cdn.turner.com/cnn/.element/img/3.0/global/header/nav-arrow.gif" width="3" height="5" alt="">
                 </a>
